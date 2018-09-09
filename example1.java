@@ -1,16 +1,4 @@
 import java.util.Scanner;
-
-class example1 {
-    public static void main(String args[]) {
-        long r, sum = 0, temp, n;
-        Scanner num=new Scanner(System.in);
-        System.out.println("Ënter a Number");
-        n= num.nextLong();
-        temp = n;
-        while (n > 0) {
-            r = n % 10;  //getting remainder
-            sum = (sum * 10) + r;
-            n = n / 10;
         }
         if (temp == sum) {
             long x=temp;
